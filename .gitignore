@@ -1,5 +1,7 @@
 # Ignorar dados do banco
-mysql-data/
+mysql/
+
+docker-compose.yml
 
 # Ignorar arquivos sensíveis e pesados do GLPI (dentro de glpi/glpi/)
 glpi/glpi/files/
