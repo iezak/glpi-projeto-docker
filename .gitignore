@@ -1,0 +1,10 @@
+# Ignorar dados do banco
+mysql-data/
+
+# Ignorar arquivos sensíveis e pesados do GLPI (dentro de glpi/glpi/)
+glpi/glpi/files/
+glpi/glpi/config/config_db.php
+
+# Ignorar arquivos de ambiente e logs
+.env
+*.log
