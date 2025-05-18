@@ -1,0 +1,51 @@
+[2025-05-17 22:17:02] glpiphplog.WARNING: Test logger  
+[2025-05-17 22:23:02] glpiphplog.WARNING: Test logger  
+[2025-05-17 22:48:16] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "pending" in /var/www/html/glpi/src/PendingReason_Item.php at line 463
+  Backtrace :
+  src/CommonITILTask.php:414                         PendingReason_Item::handleTimelineEdits()
+  src/CommonDBTM.php:1762                            CommonITILTask->post_updateItem()
+  ajax/timeline.php:63                               CommonDBTM->update()
+  public/index.php:82                                require()
+  
+[2025-05-17 23:49:31] glpiphplog.WARNING:   *** PHP Warning (2): include_once(/var/www/html/glpi/plugins/fields/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/glpi/plugins/fields/setup.php at line 85
+  Backtrace :
+  plugins/fields/setup.php:85                        include_once()
+  src/Plugin.php:353                                 plugin_init_fields()
+  src/Plugin.php:2813                                Plugin::load()
+  src/Search.php:7872                                Plugin::getSpecificValueToDisplay()
+  src/Search.php:1734                                Search::giveItem()
+  src/Search.php:451                                 Search::constructData()
+  src/Search.php:202                                 Search::getDatas()
+  src/Search.php:179                                 Search::showList()
+  front/plugin.php:56                                Search::show()
+  public/index.php:82                                require()
+  
+[2025-05-17 23:49:31] glpiphplog.WARNING:   *** PHP Warning (2): include_once(): Failed opening '/var/www/html/glpi/plugins/fields/vendor/autoload.php' for inclusion (include_path='.:/usr/share/php') in /var/www/html/glpi/plugins/fields/setup.php at line 85
+  Backtrace :
+  plugins/fields/setup.php:85                        include_once()
+  src/Plugin.php:353                                 plugin_init_fields()
+  src/Plugin.php:2813                                Plugin::load()
+  src/Search.php:7872                                Plugin::getSpecificValueToDisplay()
+  src/Search.php:1734                                Search::giveItem()
+  src/Search.php:451                                 Search::constructData()
+  src/Search.php:202                                 Search::getDatas()
+  src/Search.php:179                                 Search::showList()
+  front/plugin.php:56                                Search::show()
+  public/index.php:82                                require()
+  
+[2025-05-18 01:28:57] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonDBTM.php at line 2057
+  Backtrace :
+  plugins/formcreator/hook.php:827                   CommonDBTM->delete()
+  src/Plugin.php:1713                                plugin_formcreator_hook_update_profile()
+  src/CommonDBTM.php:1721                            Plugin::doHook()
+  front/profile.form.php:85                          CommonDBTM->update()
+  public/index.php:82                                require()
+  
+[2025-05-18 01:29:46] glpiphplog.WARNING:   *** PHP Warning (2): Undefined array key "id" in /var/www/html/glpi/src/CommonDBTM.php at line 2057
+  Backtrace :
+  plugins/formcreator/hook.php:827                   CommonDBTM->delete()
+  src/Plugin.php:1713                                plugin_formcreator_hook_update_profile()
+  src/CommonDBTM.php:1721                            Plugin::doHook()
+  front/profile.form.php:85                          CommonDBTM->update()
+  public/index.php:82                                require()
+  

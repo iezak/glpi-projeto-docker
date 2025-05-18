@@ -1,0 +1,36 @@
+2025-05-17 22:38:07 [2@99da6059731e]
+User ID: 2 tried to access or perform an action on /front/projecttask_ticket.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ProjectTask_Ticket ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:3066 displayRightError()
+		/var/www/html/glpi/front/projecttask_ticket.form.php:49 check()
+		/var/www/html/glpi/public/index.php:82 require()
+2025-05-17 22:40:37 [4@99da6059731e]
+User ID: 4 tried to access or perform an action on /front/projecttask_ticket.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ProjectTask_Ticket ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:3066 displayRightError()
+		/var/www/html/glpi/front/projecttask_ticket.form.php:49 check()
+		/var/www/html/glpi/public/index.php:82 require()
+2025-05-17 22:41:00 [4@99da6059731e]
+User ID: 4 tried to access or perform an action on /front/itil_project.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: Itil_Project ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:3066 displayRightError()
+		/var/www/html/glpi/front/itil_project.form.php:49 check()
+		/var/www/html/glpi/public/index.php:82 require()
+2025-05-17 22:48:40 [4@99da6059731e]
+User ID: 4 tried to access or perform an action on /front/projecttask_ticket.form.php with insufficient rights. Additional information: User failed a can* method check for right 4 (CREATE) on item Type: ProjectTask_Ticket ID: -1
+	Stack Trace:
+		/var/www/html/glpi/src/CommonDBTM.php:3066 displayRightError()
+		/var/www/html/glpi/front/projecttask_ticket.form.php:49 check()
+		/var/www/html/glpi/public/index.php:82 require()
+2025-05-18 00:31:34 [2@99da6059731e]
+CSRF check failed for User ID: 2 at /front/plugin.form.php
+2025-05-18 00:31:37 [2@99da6059731e]
+CSRF check failed for User ID: 2 at /front/plugin.form.php
+2025-05-18 00:44:52 [3@99da6059731e]
+User ID: 3 tried to access or perform an action on /plugins/fields/front/container.php with insufficient rights. Additional information: User is missing the 1 (READ) right for config
+	Stack Trace:
+		/var/www/html/glpi/src/Session.php:1177 displayRightError()
+		/var/www/html/glpi/plugins/fields/front/container.php:42 checkRight()
+		/var/www/html/glpi/public/index.php:82 require()
+2025-05-18 01:21:22 [2@99da6059731e]
+CSRF check failed for User ID: 2 at /front/entity.form.php

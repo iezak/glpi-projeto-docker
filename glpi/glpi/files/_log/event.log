@@ -1,0 +1,30 @@
+2025-05-17 22:21:31 [@99da6059731e]
+[login] 3: Login falhou para  no IP 172.19.0.1
+2025-05-17 22:21:57 [@99da6059731e]
+[login] 3: glpi fez login no IP 172.19.0.1
+2025-05-17 22:38:51 [@99da6059731e]
+[login] 3: tech fez login no IP 172.19.0.1
+2025-05-17 22:55:31 [@99da6059731e]
+[login] 3: post-only fez login no IP 172.19.0.1
+2025-05-17 22:58:17 [@99da6059731e]
+[login] 3: tech fez login no IP 172.19.0.1
+2025-05-17 23:16:26 [@99da6059731e]
+[login] 3: glpi fez login no IP 172.19.0.1
+2025-05-17 23:24:20 [2@99da6059731e]
+[setup] [Plugin 12] 3: Plugin ActualTime foi instalado por glpi (2).
+2025-05-17 23:24:42 [2@99da6059731e]
+[setup] [Plugin 13] 3: Plugin ActualTime foi ativado por glpi (2).
+2025-05-18 00:31:31 [2@99da6059731e]
+[setup] [Plugin 17] 3: Plugin Campos adicionais foi instalado por glpi (2).
+2025-05-18 00:32:10 [2@99da6059731e]
+[setup] [Plugin 18] 3: Plugin Form Creator foi instalado por glpi (2).
+2025-05-18 00:32:34 [2@99da6059731e]
+[setup] [Plugin 19] 3: Plugin TaskDrop foi instalado por glpi (2).
+2025-05-18 00:33:02 [2@99da6059731e]
+[setup] [Plugin 20] 3: Plugin Campos adicionais foi ativado por glpi (2).
+2025-05-18 00:33:20 [2@99da6059731e]
+[setup] [Plugin 21] 3: Plugin Form Creator foi ativado por glpi (2).
+2025-05-18 00:33:47 [2@99da6059731e]
+[setup] [Plugin 22] 3: Plugin TaskDrop foi ativado por glpi (2).
+2025-05-18 00:44:35 [@99da6059731e]
+[login] 3: post-only fez login no IP 172.19.0.1

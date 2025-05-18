@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  glpi:
+    image: diouxx/glpi
+    container_name: glpi
+    ports:
+      - "8080:80"
+    environment:
+      - TIMEZONE=America/Sao_Paulo
+    volumes:
+      - ./glpi:/var/www/html
+      - ./php.ini:/usr/local/etc/php/conf.d/zz-custom.ini
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: glpi-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: glpidb
+      MYSQL_USER: glpi
+      MYSQL_PASSWORD: glpi
+    volumes:
+      - ./mysql:/var/lib/mysql
