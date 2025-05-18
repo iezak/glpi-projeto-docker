@@ -19,7 +19,6 @@ Substituir o controle manual de solicitações (planilhas) por um sistema automa
   - [Taskdrop](https://github.com/ticgal/taskdrop): organização visual de tarefas
   - [Formcreator](https://github.com/pluginsGLPI/formcreator): criação de formulários personalizados
   - [Fields](https://github.com/pluginsGLPI/fields): campos personalizados avançados
-  - [Reports](https://github.com/pluginsGLPI/reports): relatórios prontos e personalizados
 - Criação de regras de negócio:
   - Mudança automática de status
   - Pausa de tarefas anteriores ao iniciar nova
